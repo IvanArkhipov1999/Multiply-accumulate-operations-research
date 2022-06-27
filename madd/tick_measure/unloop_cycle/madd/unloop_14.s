@@ -40,7 +40,7 @@ main:
 	addi	$11, $0, 3
 $L3:
 	addi	$12, $0, 0
-	addi	$13, $0, 3
+	addi	$13, $0, 14
 # fix start
 	rdhwr	$2, $2
 # some code
