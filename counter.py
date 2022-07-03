@@ -1,4 +1,4 @@
-file_path = '/home/results'
+file_path = '/home/ivan-arhipych/Multiply-accumulate-operations-research/msub/tick_measure/just_commands/mul+sub/results'
 
 f = open(file_path, 'r')
 # Number of ticks
