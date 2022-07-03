@@ -22,9 +22,9 @@ for char in f.read():
         num = 0
     # The results are separated by symbol '-' in file
     elif char == '-':
-        print(str(i+4) + ": " + str(sum / (all - 2)))
+        print(str(i) + ": " + str(sum / (all - 2)))
         i += 1
         flag = 0
         sum = 0
-print(str(i+4) + ": " + str(sum / (all - 2)))
+print(str(i) + ": " + str(sum / (all - 2)))
 f.close()
