@@ -36,12 +36,12 @@ main:
 	nop
 
 	.option	pic2
+$L3:
 	addi	$10, $0, 2
 	addi	$11, $0, 3
 	addi	$14, $0, 0
 	addi	$12, $0, 64
 	addi	$13, $0, 65
-$L3:
 # fix start
 	rdhwr	$2, $2
 # some code
